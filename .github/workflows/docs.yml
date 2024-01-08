@@ -1,0 +1,16 @@
+name: docs
+on: 
+  push:
+    branches:
+      - 'docs/**'
+jobs:
+  docs:
+    name: Build and deploy docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: trigger
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.TOKEN }}
+          repository: Tom-abc/genera
+          event-type: deploy
