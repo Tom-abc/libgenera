@@ -1,0 +1,7 @@
+= More
+:stem: latexmath
+
+[stem]
+++++
+\vdash p \lor (q \land r) \to (p \lor q) \land (p \lor r)
+++++

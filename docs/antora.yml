@@ -1,0 +1,5 @@
+name: libgenera
+title: libgenera
+version: '0.1'
+nav:
+  - modules/ROOT/nav.adoc

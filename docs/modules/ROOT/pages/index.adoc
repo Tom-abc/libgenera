@@ -1,0 +1,7 @@
+= Genera
+:stem: latexmath
+
+[stem]
+++++
+x \to \infty
+++++
